@@ -1,4 +1,66 @@
-.App {
-  text-align: center;
+body {
+	background: steelblue;
 }
 
+.App {
+  text-align: center;
+  background-color: gainsboro;
+  border-radius: 10px;
+  min-height: 90vh;
+  width: 85vw;
+  margin: 40px auto;
+}
+
+.list p input {
+	background-color: transparent;
+	border: 0;
+	font-size: 18px;
+}
+
+.list p input:focus {
+	outline: none;
+}
+
+.add-item {
+	border-radius: 5px;
+	padding: 15px;
+	font-size: 15px;
+}
+
+.add-item-button {
+	padding: 15px;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.item-section {
+	position: relative;
+	background-color: skyblue;
+	text-align: left;
+	width: 300px;
+	height: 50px;
+	font-size: 18px;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+
+.list-item {
+	margin-right: 20px;;
+}
+
+.checkbox {
+	margin: 15px 20px;
+}
+
+.delete-button {
+	position: absolute;
+	right: 10px;
+	margin: 15px;
+	cursor: pointer;
+}
+
+/* @media only screen and (max-width: 600px) {
+	.App {
+		
+	}
+  } */

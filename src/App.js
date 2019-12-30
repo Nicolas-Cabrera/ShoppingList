@@ -30,11 +30,11 @@ function App() {
 		<div className="App">
 			<h1>Shopping List</h1>
 			<form onSubmit={(e) => addItem(e)}>
-				<input type='text'
+				<input className='add-item' type='text'
 					placeholder='Enter item'
 					value={currentItem}
 					onChange={(e) => handleInput(e)}></input>
-				<button type='submit'>Add Item</button>
+				<button className='add-item-button' type='submit'>Add Item</button>
 			</form>
 			<ListItems items = {items}
 				deleteItem = {deleteItem}/>
